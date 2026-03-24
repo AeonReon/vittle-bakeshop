@@ -100,14 +100,15 @@
       height: 100vh;
       min-height: 620px;
       display: flex;
-      align-items: flex-end;
+      align-items: center;
+      justify-content: flex-start;
       overflow: hidden;
     }
     .hero-bg {
       position: absolute;
       inset: 0;
       /* SHOPFRONT IMAGE — swap with client photo */
-      background: url('images/heroimage.PNG') center center / cover no-repeat;
+      background: url('images/bakeryinsidehero.png') center center / cover no-repeat;
       transform: scale(1.04);
       animation: heroZoom 8s ease forwards;
     }
@@ -119,17 +120,18 @@
       position: absolute;
       inset: 0;
       background: linear-gradient(
-        to top,
-        rgba(26,22,18,0.88) 0%,
-        rgba(26,22,18,0.4) 50%,
+        to right,
+        rgba(26,22,18,0.85) 0%,
+        rgba(26,22,18,0.6) 45%,
         rgba(26,22,18,0.15) 100%
       );
     }
     .hero-content {
       position: relative;
       z-index: 2;
-      padding: 0 60px 80px;
+      padding: 0 60px;
       max-width: 780px;
+      margin-top: 40px;
       animation: fadeUp 1s 0.3s both;
     }
     @keyframes fadeUp {
@@ -858,7 +860,7 @@
     <h1>Naturally Leavened Artisan Pastries<br><em>Fresh every morning. Gone by lunchtime.</em></h1>
     <p>Handcrafted cruffins, cronuts, sourdough breads, specialty coffee and ice cream sliders — right on the Portstewart seafront. Come early, leave happy.</p>
     <div class="hero-ctas">
-      <a href="#visit" class="btn-primary">Plan Your Visit</a>
+      <a href="#visit" class="btn-primary">Find Us</a>
       <a href="#gallery" class="btn-outline">See the Bakes</a>
     </div>
   </div>
@@ -896,11 +898,11 @@
         <p>We're a small, fiercely independent bakeshop tucked into the heart of Portstewart's Promenade. Everything we bake is entirely naturally leavened — no shortcuts, no compromise, just proper craft baking with a whole lot of heart.</p>
         <p>From flaky, laminated pastries to our famous cruffins, ice cream sliders and naturally fermented breads — every bake is made fresh each morning. If you're visiting the North Coast, we're the stop people tell their friends about.</p>
         <p>We're dog-friendly, community-obsessed, and genuinely buzzing to serve you something that makes your morning.</p>
-        <a href="#visit" class="btn-primary" style="margin-top:8px;">Plan Your Visit</a>
+        <a href="#visit" class="btn-primary" style="margin-top:8px;">Find Us</a>
       </div>
       <div class="about-image-wrap fade-up">
-        <!-- INTERIOR COUNTER PHOTO: images/counter.JPG — swap with updated interior image -->
-        <img src="images/counter.JPG" alt="Vittle Bakeshop interior counter" class="about-img" />
+        <!-- INTERIOR COUNTER PHOTO: images/counterinsideourstory.png — updated clean interior image -->
+        <img src="images/counterinsideourstory.png" alt="Vittle Bakeshop interior counter" class="about-img" />
         <div class="about-badge">
           <span class="big">4.8</span>
           Google<br>Rating
@@ -1151,8 +1153,8 @@
           </iframe>
         </div>
         <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vittle+Bakeshop+66+The+Promenade+Portstewart+BT55+7AF" target="_blank" rel="noopener">Find Us on the Map →</a>
-        <!-- IMAGE: images/counter-wide.jpg — wide counter interior shot -->
-        <img src="images/counter-wide.jpg" alt="Vittle Bakeshop interior with menu boards and counter" style="margin-top:16px; border-radius:10px; width:100%; height:220px; object-fit:cover;" />
+        <!-- IMAGE: images/counterinsideourstory.png — clean counter interior shot -->
+        <img src="images/counterinsideourstory.png" alt="Vittle Bakeshop interior with menu boards and counter" style="margin-top:16px; border-radius:10px; width:100%; height:220px; object-fit:cover;" />
       </div>
     </div>
   </div>
